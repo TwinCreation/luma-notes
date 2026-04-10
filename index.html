@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twin Creation | Android Development Studio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background: #0f172a; color: white; }
+        .glass { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .gradient-text { background: linear-gradient(90deg, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    </style>
+</head>
+<body class="selection:bg-blue-500/30">
+
+    <nav class="fixed w-full z-50 px-6 py-4">
+        <div class="max-w-6xl mx-auto flex justify-between items-center glass rounded-2xl px-6 py-3">
+            <div class="text-xl font-bold tracking-tighter">TWIN <span class="gradient-text">CREATION</span></div>
+            <div class="space-x-8 hidden md:flex text-sm font-medium text-slate-300">
+                <a href="#about" class="hover:text-blue-400 transition">About</a>
+                <a href="#portfolio" class="hover:text-blue-400 transition">Apps</a>
+                <a href="#legal" class="hover:text-blue-400 transition">Legal</a>
+                <a href="#contact" class="bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-lg transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="about" class="pt-32 pb-20 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6">Crafting the Future of <span class="gradient-text">Android</span></h1>
+            <p class="text-slate-400 text-lg md:text-xl leading-relaxed mb-10">
+                Welcome to Twin Creation. We specialize in building high-performance, user-centric Android applications using the latest technologies like Jetpack Compose.
+            </p>
+        </div>
+    </section>
+
+    <section id="portfolio" class="py-20 px-6 bg-slate-900/50">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12 flex items-center">
+                <span class="w-8 h-1 bg-blue-500 mr-4"></span> Our Portfolio
+            </h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="glass p-8 rounded-3xl hover:scale-[1.02] transition-transform cursor-pointer">
+                    <div class="w-16 h-16 bg-blue-600 rounded-2xl mb-6 flex items-center justify-center text-3xl">📝</div>
+                    <h3 class="text-2xl font-bold mb-2">Luma Notes</h3>
+                    <p class="text-slate-400 mb-6">A minimalist, powerful notes and checklist app designed for maximum productivity.</p>
+                    <div class="flex gap-4">
+                        <span class="text-xs font-bold tracking-widest uppercase bg-blue-500/10 text-blue-400 px-3 py-1 rounded-full border border-blue-500/20">Jetpack Compose</span>
+                        <span class="text-xs font-bold tracking-widest uppercase bg-slate-800 text-slate-400 px-3 py-1 rounded-full">Live on Play Store</span>
+                    </div>
+                </div>
+
+                <div class="glass p-8 rounded-3xl border-dashed border-2 opacity-50 flex flex-col items-center justify-center text-slate-500">
+                    <p>New Project Coming Soon</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="legal" class="py-20 px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="glass p-10 rounded-3xl flex flex-col md:flex-row justify-between items-center">
+                <div>
+                    <h2 class="text-2xl font-bold mb-2">Legal Transparency</h2>
+                    <p class="text-slate-400">View our privacy policies and terms of service for all Twin Creation apps.</p>
+                </div>
+                <div class="flex gap-4 mt-6 md:mt-0">
+                    <a href="luma-notes/privacy.html" class="px-6 py-3 glass hover:bg-white/10 rounded-xl transition text-sm">Privacy Policy</a>
+                    <a href="luma-notes/terms.html" class="px-6 py-3 glass hover:bg-white/10 rounded-xl transition text-sm">Terms of Use</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-8">Get In Touch</h2>
+            <p class="text-slate-400 mb-10">Interested in collaboration or have a support question? Drop us a line.</p>
+            <a href="mailto:your-email@example.com" class="text-2xl font-semibold text-blue-400 hover:underline">contact@twincreation.dev</a>
+        </div>
+    </section>
+
+    <footer class="py-10 border-t border-slate-800 text-center text-slate-500 text-sm">
+        &copy; 2026 Twin Creation. All rights reserved.
+    </footer>
+
+</body>
+</html>
