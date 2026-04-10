@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy | Luma Notes</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+body {
+ font-family: 'Inter', sans-serif;
+ margin: 0;
+ background: #f8fafc;
+ color: #1e293b;
+ line-height: 1.7;
+}
+
+.container {
+ max-width: 800px;
+ margin: 40px auto;
+ padding: 20px;
+}
+
+h1 {
+ text-align: center;
+ font-size: 2.2rem;
+ margin-bottom: 10px;
+}
+
+.subtitle {
+ text-align: center;
+ color: #64748b;
+ margin-bottom: 40px;
+}
+
+.card {
+ background: white;
+ padding: 25px;
+ border-radius: 16px;
+ margin-bottom: 20px;
+ box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+h2 {
+ margin-top: 0;
+ color: #6366f1;
+ font-size: 1.2rem;
+}
+
+ul {
+ padding-left: 20px;
+}
+
+li {
+ margin-bottom: 8px;
+}
+
+.footer {
+ text-align: center;
+ font-size: 0.85rem;
+ color: #94a3b8;
+ margin-top: 40px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Privacy Policy</h1>
+<div class="subtitle">Luma Notes • Published by Rise Forge</div>
+
+<div class="card">
+<h2>1. Introduction</h2>
+<p>This Privacy Policy describes how <b>Luma Notes</b> ("we", "our", or "us") handles user data. We are committed to protecting your privacy and ensuring transparency in how data is handled.</p>
+</div>
+
+<div class="card">
+<h2>2. Data Collection</h2>
+<p>We do <b>not collect, store, or share</b> any personal data from users.</p>
+<ul>
+<li>No account registration required</li>
+<li>No personal information collected</li>
+<li>No analytics, tracking, or advertising SDKs</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>3. Data Storage</h2>
+<ul>
+<li>All notes and attachments are stored locally on your device</li>
+<li>We do not use cloud storage or remote servers</li>
+<li>You have full control over your data</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>4. Permissions Usage</h2>
+
+<p><b>Notifications</b></p>
+<ul>
+<li>Used to send reminders and alerts related to your notes</li>
+</ul>
+
+<p><b>Internet</b></p>
+<ul>
+<li>Used only to display privacy policy and optional features</li>
+</ul>
+
+<p><b>Media Access</b></p>
+<ul>
+<li>Allows attaching images, audio, and videos to notes</li>
+</ul>
+
+<p><b>Storage (Legacy)</b></p>
+<ul>
+<li>Used for compatibility with older Android versions</li>
+</ul>
+
+</div>
+
+<div class="card">
+<h2>5. Data Sharing</h2>
+<p>We do not sell, trade, or share your data with third parties.</p>
+</div>
+
+<div class="card">
+<h2>6. Security</h2>
+<p>Your data remains protected within your device using Android’s built-in security mechanisms.</p>
+</div>
+
+<div class="card">
+<h2>7. User Rights</h2>
+<ul>
+<li>You can access, modify, or delete your data anytime</li>
+<li>You can revoke permissions via device settings</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>8. Children's Privacy</h2>
+<p>This app is not intended for children under 13. We do not knowingly collect personal data from children.</p>
+</div>
+
+<div class="card">
+<h2>9. Changes to Policy</h2>
+<p>We may update this Privacy Policy from time to time. Updates will be reflected on this page.</p>
+</div>
+
+<div class="card">
+<h2>10. Contact</h2>
+<p>If you have any questions, contact us at:</p>
+<p><b>Email:</b> rise.forge.worksstudio@gmail.com</p>
+</div>
+
+<div class="footer">
+© 2026 Rise Forge • All rights reserved
+</div>
+
+</div>
+
+</body>
+</html>
